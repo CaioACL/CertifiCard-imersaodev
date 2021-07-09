@@ -1,0 +1,98 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/2195669.jpg");
+  background-size: cover;
+}
+
+section {
+  -webkit-box-shadow: 9px 10px 11px -1px rgba(0,0,0,0.79); 
+  box-shadow: -9px 9px 11px -1px rgba(0,0,0,0.79);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500PX;
+  margin-top: 100px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  
+}
+
+section h1 {
+  font-size: 20px;
+  font-family: "Roboto";
+  text-align: center;
+  
+}
+
+section h2 {
+  font-family: "Montserrat";
+  font-weight: 300;
+  text-align: center;
+}
+
+section h3{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section ol {
+  font-family: "roboto";
+  font-weight: 300;
+  font-style: normal;
+  text-justify: left;
+}
+a:link{
+  text-decoration:none;
+}
+
+a:visited{
+  text-decoration:none;
+  color: black;
+}
+
+a:active{
+  text-decoration:none;
+
+
+}
+
+header {
+  background-image: url("https://wallpaperaccess.com/full/1558939.jpg");
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 80px;
+  
+}
+
+div {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #C5CADB;
+  
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+  border: 12px solid white;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5c20a;
+  transform: translateY(-50%);
+}
+  
+  img {
+  width: 50px;
+  height: 50px;
+  text-align-last: 80px;
+  
+  
+}
+li:hover {
+    transform: scalez(2);
+    transition-duration: 1s;
+}
